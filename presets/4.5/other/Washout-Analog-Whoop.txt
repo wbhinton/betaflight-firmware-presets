@@ -4,7 +4,7 @@
 #$ CATEGORY: Other
 #$ STATUS: EXPERIMENTAL
 #$ FIRMWARE_VERSION: 4.5
-#$ AUTHOR: Daniel Appel / Tehllama
+#$ AUTHOR: Weston Hinton
 
 # Put your CLI commands below:
 set center_sensitivity = 150, 150, 150
