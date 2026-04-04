@@ -1,5 +1,5 @@
 #$ TITLE: Washout's Analog Whoop Setup
-#$ DESCRIPTION: Standard Actual Rates, OSD Layout, and ELRS 500Hz settings.
+#$ DESCRIPTION: Analog whoop setup
 #$ KEYWORDS: Whoop, Rates, OSD
 #$ CATEGORY: Other
 #$ STATUS: EXPERIMENTAL
