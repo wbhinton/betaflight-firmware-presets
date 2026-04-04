@@ -209,7 +209,7 @@
       "Utka v tapkah",
       "Viki Baarathi",
       "Volker Göschl-Covrljan",
-      "Weston Hinton",
+      "Washout",
       "YarosFPV (Yaroslav Syubayev)",
       "ZoeFPV"
     ],
@@ -8157,19 +8157,22 @@
     },
     {
       "fullPath": "presets/4.5/other/Washout-Analog-Whoop.txt",
-      "hash": "42baf326f031c43df396ac52b5789c26abf0c19a2e7458bc869c0084812f5e79",
-      "title": "Washout's Analog Whoop Setup",
+      "hash": "8b108649ef25e15b65a6719a17b45796749f77174cef570dccff11f63811b4cb",
+      "title": "Washout's Standardized Whoop Setup",
       "keywords": [
         "Whoop",
         "Rates",
-        "OSD"
+        "OSD",
+        "HDZero",
+        "Analog"
       ],
       "category": "OTHER",
       "status": "EXPERIMENTAL",
       "firmware_version": [
         "4.5"
       ],
-      "author": "Weston Hinton",
+      "author": "Washout",
+      "force_options_review": true,
       "priority": 0
     },
     {

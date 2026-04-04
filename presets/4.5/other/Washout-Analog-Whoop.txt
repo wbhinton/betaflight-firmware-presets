@@ -1,5 +1,5 @@
 #$ TITLE: Washout's Standardized Whoop Setup
-#$ DESCRIPTION: My ultimate whoop setup. Includes safe CPU settings for F411, combined AOS/UAVTech tune, and selectable OSDs.
+#$ DESCRIPTION: My standardized whoop setup. Includes safe CPU settings for F411, combined AOS/UAVTech tune, and selectable OSDs.
 #$ KEYWORDS: Whoop, Rates, OSD, HDZero, Analog
 #$ CATEGORY: OTHER
 #$ STATUS: EXPERIMENTAL
