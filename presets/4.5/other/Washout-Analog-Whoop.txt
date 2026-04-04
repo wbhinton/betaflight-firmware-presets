@@ -1,0 +1,22 @@
+#$ TITLE: Washout's Analog Whoop Setup
+#$ DESCRIPTION: Standard Actual Rates, OSD Layout, and ELRS 500Hz settings.
+#$ KEYWORDS: Whoop, Rates, OSD
+#$ CATEGORY: Other
+#$ STATUS: EXPERIMENTAL
+#$ FIRMWARE_VERSION: 4.5
+#$ AUTHOR: Daniel Appel / Tehllama
+
+# Put your CLI commands below:
+set center_sensitivity = 150, 150, 150
+set max_rate = 600, 600, 600
+set expo = 50, 50, 50
+# OSD
+set osd_units = IMPERIAL
+set osd_rssi_dbm_alarm = -98
+set osd_vbat_pos = 2432
+set osd_link_quality_pos = 2456
+set osd_rssi_dbm_pos = 2456
+set osd_craft_name_pos = 2048
+set osd_pilot_name_pos = 2058
+set osd_warnings_pos = 14729
+set osd_flip_arrow_pos = 2318
