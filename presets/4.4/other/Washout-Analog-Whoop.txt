@@ -3,7 +3,7 @@
 #$ KEYWORDS: Whoop, Rates, OSD, HDZero, Analog
 #$ CATEGORY: OTHER
 #$ STATUS: EXPERIMENTAL
-#$ FIRMWARE_VERSION: 4.5
+#$ FIRMWARE_VERSION: 4.4
 #$ AUTHOR: Washout
 #$ FORCE_OPTIONS_REVIEW: TRUE
 
@@ -92,7 +92,7 @@ set osd_canvas_height = 13
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): HDZero OSD
-#$ INCLUDE: presets/4.5/vtx/HDZero.txt
+#$ INCLUDE: presets/4.4/vtx/HDZero.txt
 set osd_displayport_device = MSP
 set vcd_video_system = HD
 set osd_canvas_height = 13

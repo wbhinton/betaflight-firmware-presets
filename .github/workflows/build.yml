@@ -1,6 +1,6 @@
 name: CI - Indexer job (deploy if master branch)
 
-on: [push, pull_request]
+on: [] # Disabled
 
 jobs:
   build:
