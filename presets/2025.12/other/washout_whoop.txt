@@ -64,23 +64,24 @@ set osd_units = IMPERIAL
 ### --- VIDEO SYSTEM OPTIONS ---
 #$ OPTION_GROUP BEGIN: (EXCLUSIVE) Select Video System
 #$ OPTION BEGIN (CHECKED): Analog OSD 
+set osd_units = IMPERIAL
 set osd_warn_bitmask = 8191
 set osd_vbat_pos = 332
 set osd_rssi_pos = 413
-set osd_link_quality_pos = 2456
-set osd_rssi_dbm_pos = 2424
+set osd_link_quality_pos = 2424
+set osd_rssi_dbm_pos = 2392
 set osd_tim_1_pos = 54
 set osd_tim_2_pos = 56
 set osd_flymode_pos = 2073
 set osd_g_force_pos = 65
-set osd_throttle_pos = 2443
+set osd_throttle_pos = 2411
 set osd_vtx_channel_pos = 52
 set osd_current_pos = 385
 set osd_mah_drawn_pos = 384
 set osd_craft_name_pos = 2049
 set osd_pilot_name_pos = 2059
 set osd_warnings_pos = 2376
-set osd_avg_cell_voltage_pos = 2433
+set osd_avg_cell_voltage_pos = 2401
 set osd_battery_usage_pos = 33154
 set osd_disarmed_pos = 74
 set osd_esc_rpm_pos = 161
