@@ -1,0 +1,56 @@
+#$ TITLE: Washout's Smooth 7-inch Surfer
+#$ DESCRIPTION: 7" tune for plane chasing and mountain surfing. Reliable, smooth, Walksnail ready.
+#$ CATEGORY: TUNE
+#$ FIRMWARE_VERSION: 2025.12
+#$ AUTHOR: Washout
+
+### --- Motor & Protocol ---
+set motor_pwm_protocol = DSHOT600
+set dshot_bidir = ON
+
+### --- Supafly 7" PIDs (No Action Cam Balance) ---
+set simplified_master_multiplier = 120
+set simplified_i_gain = 90
+set simplified_d_gain = 120
+set simplified_pi_gain = 105
+set simplified_d_max_gain = 100
+set simplified_feedforward_gain = 90
+set simplified_pitch_pi_gain = 115
+set simplified_pitch_d_gain = 115
+set pidsum_limit = 1000
+set pidsum_limit_yaw = 1000
+
+### --- Supafly 7" Motor Dynamics ---
+set thrust_linear = 10
+set tpa_mode = D
+set tpa_rate = 80
+set tpa_breakpoint = 1250
+set tpa_low_breakpoint = 1100
+set dyn_idle_min_rpm = 30
+set iterm_relax_cutoff = 6
+set anti_gravity_gain = 120
+
+### --- Supafly 7" Safe Low-Frequency Filtering ---
+set gyro_lpf1_static_hz = 0
+set gyro_lpf2_static_hz = 300
+set dyn_notch_count = 2
+set dyn_notch_q = 400
+set dyn_notch_min_hz = 40
+set dyn_notch_max_hz = 400
+set rpm_filter_harmonics = 3
+set rpm_filter_q = 600
+set rpm_filter_weights = 90,60,90
+set rpm_filter_min_hz = 50
+set rpm_filter_fade_range_hz = 50
+set dterm_lpf1_dyn_min_hz = 0
+set dterm_lpf1_static_hz = 0
+set dterm_lpf2_type = PT3
+set dterm_lpf2_static_hz = 120
+set simplified_dterm_filter_multiplier = 80
+set simplified_gyro_filter_multiplier = 60
+
+### --- Walksnail Digital OSD ---
+set osd_displayport_device = AUTO
+set vcd_video_system = HD
+
+simplified_tuning apply
