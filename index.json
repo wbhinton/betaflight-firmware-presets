@@ -511,7 +511,7 @@
       "Racing",
       "rad",
       "ranging",
-      "rates",
+      "Rates",
       "RC",
       "rc link",
       "rc_link",
@@ -623,7 +623,7 @@
       "vtx table",
       "vtxtable",
       "Walksnail",
-      "whoop",
+      "Whoop",
       "whoop lite",
       "whooptopia",
       "world champion",
@@ -792,6 +792,26 @@
         "GPS_Rescue"
       ],
       "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/other/washout_whoop.txt",
+      "hash": "b8d392ffca308fcbacea68c5fedbcebdd12d92ea7db37aba8a28609e8be86f8d",
+      "title": "Washout's Standardized Whoop Setup",
+      "keywords": [
+        "Whoop",
+        "Rates",
+        "OSD",
+        "HDZero",
+        "Analog"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "author": "Washout",
+      "force_options_review": true,
       "priority": 0
     },
     {
@@ -2128,6 +2148,30 @@
       "priority": 1000000000000
     },
     {
+      "fullPath": "presets/2025.12/tune/washout/washout_chaser_5.txt",
+      "hash": "b36eab7a49572c1c24128387f27ea0aef3bc999234a3007867a9c3c3dad6e765",
+      "title": "Washout's Smooth 5-inch Chaser",
+      "category": "TUNE",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "author": "Washout",
+      "status": "COMMUNITY",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/2025.12/tune/washout/washout_smooth_7.txt",
+      "hash": "d2d0b06af8093c0025f8434a608d2c8af003782a86bb704ff38eb6bd06dcad74",
+      "title": "Washout's Smooth 7-inch Surfer",
+      "category": "TUNE",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "author": "Washout",
+      "status": "COMMUNITY",
+      "priority": 1000000000000
+    },
+    {
       "fullPath": "presets/4.3/filters/basic_no_rpm_clean.txt",
       "hash": "c0bd2461401e586a4bdb5bf104db999a11bf8341762dbe509adf2d676f5b4412",
       "title": "4.3 Filter settings for CLEAN build WITH NO RPM FILTERING.",
@@ -2634,26 +2678,6 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.3/other/Washout-Analog-Whoop.txt",
-      "hash": "12126abafba204d08d10c528c5473f42db33a733cc7791480e08b1558310456c",
-      "title": "Washout's Standardized Whoop Setup",
-      "keywords": [
-        "Whoop",
-        "Rates",
-        "OSD",
-        "HDZero",
-        "Analog"
-      ],
-      "category": "OTHER",
-      "status": "EXPERIMENTAL",
-      "firmware_version": [
-        "4.3"
-      ],
-      "author": "Washout",
-      "force_options_review": true,
-      "priority": 0
-    },
-    {
       "fullPath": "presets/4.3/other/blackbox_disable.txt",
       "hash": "dd841068d2601c35bd38b350349b82cf23bd0185d8ee21f8a51ac1c9636154df",
       "title": "4.3 Blackbox disable settings",
@@ -2822,6 +2846,26 @@
         "stats"
       ],
       "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/other/washout_whoop.txt",
+      "hash": "a874b0fa69f8808917e3e1cc87f248dd64b5280405751fde89da6468436999a8",
+      "title": "Washout's Standardized Whoop Setup",
+      "keywords": [
+        "Whoop",
+        "Rates",
+        "OSD",
+        "HDZero",
+        "Analog"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "firmware_version": [
+        "4.3"
+      ],
+      "author": "Washout",
+      "force_options_review": true,
       "priority": 0
     },
     {
@@ -6086,8 +6130,8 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.4/other/Washout-Analog-Whoop.txt",
-      "hash": "dccdee219d00928617488ad62afa22a82ac277f68bf9f3b53d5b75938f4c7a86",
+      "fullPath": "presets/4.4/other/washout_whoop.txt",
+      "hash": "b6779eb916a57e11222bc12d8f5d3b5dbb7c5f94eb1900d441ee04f9796f3414",
       "title": "Washout's Standardized Whoop Setup",
       "keywords": [
         "Whoop",
@@ -6097,7 +6141,7 @@
         "Analog"
       ],
       "category": "OTHER",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "firmware_version": [
         "4.4"
       ],
@@ -8196,26 +8240,6 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.5/other/Washout-Analog-Whoop.txt",
-      "hash": "4345259295a8ba0b81569e68c5a7937e6d3dedfaa6d569d36fa9752cd65e48e3",
-      "title": "Washout's Standardized Whoop Setup",
-      "keywords": [
-        "Whoop",
-        "Rates",
-        "OSD",
-        "HDZero",
-        "Analog"
-      ],
-      "category": "OTHER",
-      "status": "EXPERIMENTAL",
-      "firmware_version": [
-        "4.5"
-      ],
-      "author": "Washout",
-      "force_options_review": true,
-      "priority": 0
-    },
-    {
       "fullPath": "presets/4.5/other/bensonk-switches.txt",
       "hash": "ca0d77d0054512da7ca4551de98098612c3a7b1d4307156b018b03807f03ebf3",
       "title": "bensonk - Standard switch settings",
@@ -8306,6 +8330,26 @@
         "GPS_Rescue"
       ],
       "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/other/washout_whoop.txt",
+      "hash": "2a7df314359482849231740931a49b3e97f9fee01ca010d693fffaa92db83256",
+      "title": "Washout's Standardized Whoop Setup",
+      "keywords": [
+        "Whoop",
+        "Rates",
+        "OSD",
+        "HDZero",
+        "Analog"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "firmware_version": [
+        "4.5"
+      ],
+      "author": "Washout",
+      "force_options_review": true,
       "priority": 0
     },
     {

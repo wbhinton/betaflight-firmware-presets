@@ -2,7 +2,7 @@
 #$ DESCRIPTION: My standardized whoop setup. Includes safe CPU settings for F411, combined AOS/UAVTech tune, and selectable OSDs.
 #$ KEYWORDS: Whoop, Rates, OSD, HDZero, Analog
 #$ CATEGORY: OTHER
-#$ STATUS: EXPERIMENTAL
+#$ STATUS: COMMUNITY
 #$ FIRMWARE_VERSION: 2025.12
 #$ AUTHOR: Washout
 #$ FORCE_OPTIONS_REVIEW: TRUE

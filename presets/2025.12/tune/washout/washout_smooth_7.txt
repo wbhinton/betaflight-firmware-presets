@@ -3,6 +3,7 @@
 #$ CATEGORY: TUNE
 #$ FIRMWARE_VERSION: 2025.12
 #$ AUTHOR: Washout
+#$ STATUS: COMMUNITY
 
 ### --- Motor & Protocol ---
 set motor_pwm_protocol = DSHOT600
