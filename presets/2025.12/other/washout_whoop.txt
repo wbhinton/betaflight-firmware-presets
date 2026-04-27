@@ -7,7 +7,7 @@
 #$ AUTHOR: Washout
 #$ FORCE_OPTIONS_REVIEW: TRUE
 
-### --- CPU LOAD & MOTOR PROTOCOL FIXES ---
+##### --- CPU LOAD & MOTOR PROTOCOL FIXES ---
 set motor_pwm_protocol = DSHOT300
 set dshot_bidir = ON
 set motor_poles = 12
@@ -16,7 +16,12 @@ set rpm_filter_harmonics = 1
 set baro_hardware = NONE
 set blackbox_device = NONE
 
-### --- WASHOUT'S RATES ---
+##### --- BATTERY SETTINGS FOR 1S HV ---
+set bat_capacity = 300
+set vbat_max_cell_voltage = 460
+set vbat_warning_cell_voltage = 330
+
+##### --- WASHOUT'S RATES ---
 set rates_type = ACTUAL
 set roll_rc_rate = 20
 set pitch_rc_rate = 20
@@ -28,7 +33,7 @@ set roll_expo = 50
 set pitch_expo = 50
 set yaw_expo = 50
 
-### --- COMBINED AOS & UAV TECH TUNE ---
+##### --- COMBINED AOS & UAV TECH TUNE ---
 set dyn_idle_min_rpm = 100
 set dyn_idle_p_gain = 40
 set thrust_linear = 25
@@ -45,91 +50,85 @@ set dyn_notch_count = 4
 set dyn_notch_min_hz = 100
 set dyn_notch_max_hz = 600
 
-### --- DEFAULT CHANNEL MAPPING ---
-# aux
+##### --- DEFAULT CHANNEL MAPPING  ---
+### aux
 aux 0 0 0 1600 2100 0 0
 aux 1 1 5 1700 2100 0 0
 aux 2 2 5 1300 1700 0 0
 aux 3 13 1 1225 2100 0 0
 aux 4 35 2 1550 2100 0 0
 
-# adjrange
+### adjrange
 adjrange 0 0 1 900 1200 12 1 0 0
 adjrange 1 0 1 1200 1800 12 1 0 0
 adjrange 2 0 1 1800 2100 12 1 0 0
 
-
-### --- STANDARDIZED BASE OSD ---
+##### --- STANDARDIZED BASE OSD ---
 set osd_units = IMPERIAL
 
-### --- VIDEO SYSTEM OPTIONS ---
+##### --- VIDEO SYSTEM OPTIONS ---
 #$ OPTION_GROUP BEGIN: (EXCLUSIVE) Select Video System
+
 #$ OPTION BEGIN (CHECKED): Analog OSD
-        set osd_units = IMPERIAL
-        set osd_warn_bitmask = 8191
-        set osd_vbat_pos = 332
-        set osd_rssi_pos = 413
-        set osd_link_quality_pos = 2424
-        set osd_rssi_dbm_pos = 2393
-        set osd_tim_1_pos = 2442
-        set osd_tim_2_pos = 56
-        set osd_flymode_pos = 2080
-        set osd_g_force_pos = 65
-        set osd_throttle_pos = 2412
-        set osd_vtx_channel_pos = 52
-        set osd_current_pos = 385
-        set osd_mah_drawn_pos = 384
-        set osd_craft_name_pos = 2048
-        set osd_pilot_name_pos = 2059
-        set osd_warnings_pos = 2377
-        set osd_avg_cell_voltage_pos = 2401
-        set osd_battery_usage_pos = 33154
-        set osd_disarmed_pos = 74
-        set osd_esc_rpm_pos = 161
-        set osd_flip_arrow_pos = 2317
-        set osd_core_temp_pos = 56
-        set osd_canvas_height = 13
-        set vcd_video_system = NTSC
-        set osd_displayport_device = MAX7456
+set vcd_video_system = NTSC
+set osd_displayport_device = MAX7456
+set osd_warn_bitmask = 8191
+set osd_vbat_pos = 332
+set osd_rssi_pos = 413
+set osd_link_quality_pos = 2424
+set osd_rssi_dbm_pos = 2393
+set osd_tim_1_pos = 2442
+set osd_tim_2_pos = 56
+set osd_flymode_pos = 2080
+set osd_g_force_pos = 65
+set osd_throttle_pos = 2412
+set osd_vtx_channel_pos = 52
+set osd_current_pos = 385
+set osd_mah_drawn_pos = 384
+set osd_craft_name_pos = 2048
+set osd_pilot_name_pos = 2059
+set osd_warnings_pos = 2377
+set osd_avg_cell_voltage_pos = 2401
+set osd_battery_usage_pos = 33154
+set osd_disarmed_pos = 74
+set osd_esc_rpm_pos = 161
+set osd_flip_arrow_pos = 2317
+set osd_core_temp_pos = 56
+set osd_canvas_height = 13
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): HDZero OSD
 #$ INCLUDE: presets/4.5/vtx/HDZero.txt
-        set osd_displayport_device = MSP
-        set vcd_video_system = HD
-        set osd_units = IMPERIAL
-        set osd_vbat_pos = 332
-        set osd_rssi_pos = 1547
-        set osd_link_quality_pos = 3563
-        set osd_rssi_dbm_pos = 3531
-        set osd_tim_1_pos = 54
-        set osd_tim_2_pos = 56
-        set osd_flymode_pos = 3115
-        set osd_g_force_pos = 65
-        set osd_throttle_pos = 2530
-        set osd_vtx_channel_pos = 52
-        set osd_current_pos = 385
-        set osd_mah_drawn_pos = 384
-        set osd_craft_name_pos = 2081
-        set osd_pilot_name_pos = 2103
-        set osd_warnings_pos = 2483
-        set osd_avg_cell_voltage_pos = 2562
-        set osd_battery_usage_pos = 33218
-        set osd_disarmed_pos = 74
-        set osd_esc_rpm_pos = 161
-        set osd_flip_arrow_pos = 2391
-        set osd_core_temp_pos = 56
-        set osd_canvas_width = 50
-        set osd_canvas_height = 18
-        vtxtable powerlevels 3
-        vtxtable powervalues 0 14 23
-        vtxtable powerlabels 0 25 200
-        set vtx_low_power_disarm = ON
-        set vtx_power = 3
+set osd_displayport_device = MSP
+set vcd_video_system = HD
+set osd_vbat_pos = 332
+set osd_rssi_pos = 1547
+set osd_link_quality_pos = 3563
+set osd_rssi_dbm_pos = 3531
+set osd_tim_1_pos = 54
+set osd_tim_2_pos = 56
+set osd_flymode_pos = 3115
+set osd_g_force_pos = 65
+set osd_throttle_pos = 2530
+set osd_vtx_channel_pos = 52
+set osd_current_pos = 385
+set osd_mah_drawn_pos = 384
+set osd_craft_name_pos = 2081
+set osd_pilot_name_pos = 2103
+set osd_warnings_pos = 2483
+set osd_avg_cell_voltage_pos = 2562
+set osd_battery_usage_pos = 33218
+set osd_disarmed_pos = 74
+set osd_esc_rpm_pos = 161
+set osd_flip_arrow_pos = 2391
+set osd_core_temp_pos = 56
+set osd_canvas_width = 50
+set osd_canvas_height = 18
+vtxtable powerlevels 3
+vtxtable powervalues 0 14 23
+vtxtable powerlabels 0 25 200
+set vtx_low_power_disarm = ON
+set vtx_power = 3
 #$ OPTION END
-#$ OPTION_GROUP END
 
-### Battery Settings for 1S HV
-set bat_capacity = 300
-set vbat_max_cell_voltage = 460
-set vbat_warning_cell_voltage = 330
+#$ OPTION_GROUP END
