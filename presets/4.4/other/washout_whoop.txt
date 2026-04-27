@@ -91,6 +91,8 @@ set osd_esc_rpm_pos = 161
 set osd_flip_arrow_pos = 2317
 set osd_core_temp_pos = 56
 set osd_canvas_height = 13
+set vcd_video_system = NTSC
+set osd_displayport_device = MAX7456
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): HDZero OSD
