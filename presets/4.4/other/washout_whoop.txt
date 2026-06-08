@@ -34,7 +34,7 @@ set pitch_expo = 50
 set yaw_expo = 50
 
 ##### --- COMBINED AOS & UAV TECH TUNE ---
-set dyn_idle_min_rpm = 100
+set dyn_idle_min_rpm = 65
 set dyn_idle_p_gain = 40
 set thrust_linear = 25
 set vbat_sag_compensation = 100
