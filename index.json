@@ -199,6 +199,7 @@
       "NemesisXB",
       "Nicholas Young (Fader FPV)",
       "QuadMcFly (Ryan Harrell)",
+      "Safeer Hussain",
       "Sartor",
       "Sjoer van der Ploeg",
       "Stingers Swarm",
@@ -296,6 +297,7 @@
       "aio5",
       "air",
       "air unit",
+      "air65",
       "air75",
       "akk",
       "AlexFPV",
@@ -380,6 +382,7 @@
       "expert",
       "express",
       "Extreme",
+      "factory",
       "fader fpv",
       "feisar",
       "fictive flame",
@@ -485,7 +488,7 @@
       "O3 & O4",
       "O3 air unit",
       "Omni",
-      "OpenRacer",
+      "openracer",
       "OpenVTx",
       "OSD",
       "ozr",
@@ -538,6 +541,7 @@
       "SBANG",
       "sbus",
       "SBUS fast",
+      "SD",
       "secretfader",
       "settek",
       "Sh*t pilot",
@@ -623,7 +627,7 @@
       "vtx table",
       "vtxtable",
       "Walksnail",
-      "Whoop",
+      "whoop",
       "whoop lite",
       "whooptopia",
       "world champion",
@@ -676,13 +680,13 @@
     },
     {
       "fullPath": "presets/2025.12/osd/UAV_tech_Analog.txt",
-      "hash": "80cab8b4197661c9232b38564da4ee8e2ad10c0f89ea9975038b7e2b686274ef",
+      "hash": "fb0e87aa1d0b176afc56e9357b61785a2bfe5d9ca90220bad996f07b09b094bb",
       "title": "UAV Tech - Analog",
       "firmware_version": [
         "2025.12"
       ],
       "category": "OSD",
-      "status": "OFFICIAL",
+      "status": "COMMUNITY",
       "keywords": [
         "analog"
       ],
@@ -691,13 +695,13 @@
     },
     {
       "fullPath": "presets/2025.12/osd/UAV_tech_DJI.txt",
-      "hash": "de9e7c169ff14594f454ccb2330c5b289ea946f8cf2c145682a960fff105e7ba",
+      "hash": "dd639f1c4603cd352a47d92d0e7d1c260ad711df9a61c2f44725fcaac38e508f",
       "title": "UAV Tech - DJI",
       "firmware_version": [
         "2025.12"
       ],
       "category": "OSD",
-      "status": "OFFICIAL",
+      "status": "COMMUNITY",
       "keywords": [
         "DJI"
       ],
@@ -706,13 +710,13 @@
     },
     {
       "fullPath": "presets/2025.12/osd/UAV_tech_DJI_GPS.txt",
-      "hash": "a2f45fc44448579f611fe2e4e8bf6145fec0ef42b17952287b6c0344b0e1d990",
+      "hash": "8b9bac6fda9e4febaf0b9f98adbdc6e545f7fdeba7c3660bebca7fd142d030a6",
       "title": "UAV Tech - DJI with GPS",
       "firmware_version": [
         "2025.12"
       ],
       "category": "OSD",
-      "status": "OFFICIAL",
+      "status": "COMMUNITY",
       "keywords": [
         "DJI",
         "GPS"
@@ -738,8 +742,28 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/2025.12/osd/sugark_analog_osd.txt",
+      "hash": "69200e4b1c6e858dad3237c77ce2f044fc8ee8d66015ec1e6c10ead90c80eeaf",
+      "title": "sugarK analog OSD",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "analog",
+        "SD",
+        "whoop",
+        "OSD",
+        "sugarK",
+        "racing"
+      ],
+      "author": "sugarK",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/2025.12/osd/sugark_hdzero_osd.txt",
-      "hash": "656a74f10de5a16a67ee453e84a4e87e2b4d03debb96ef45a1c52d7b6a1f26d3",
+      "hash": "d8f51c6c951da8b04acbfdeb7e85ebca7170ac2b0ff5ce3f9629b134a172d531",
       "title": "sugarK HDzero OSD",
       "firmware_version": [
         "2025.12"
@@ -1835,6 +1859,49 @@
       "priority": 1000000000000
     },
     {
+      "fullPath": "presets/2025.12/tune/karate/karate_whoop_2025_12.txt",
+      "hash": "780cadc665c5259306df591e1ca89b76dfa8e12055086a4a747abbe351d235be",
+      "title": "Karate RACE Whoop 2025.12",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "TUNE",
+      "status": "OFFICIAL",
+      "keywords": [
+        "karate",
+        "1S",
+        "race",
+        "brushless",
+        "whoop",
+        "65mm",
+        "sugarK",
+        "KarateBrot"
+      ],
+      "author": "sugarK",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/2025.12/tune/openracer_jazzmutant_tune.txt",
+      "hash": "94183068e9f39d758f960f2ca533a8d610390c3f6148a33ff3f15abf046781dc",
+      "title": "OpenRacer 5\" 6S by JazzMutant",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "openracer",
+        "race",
+        "5 Inch",
+        "5 In",
+        "5\"",
+        "JazzMutant"
+      ],
+      "author": "JazzMutant",
+      "force_options_review": true,
+      "priority": 1000000000000
+    },
+    {
       "fullPath": "presets/2025.12/tune/supafly_fpv/SupaflyFPV_Freestyle_3_4_Inch_EasyTune.txt",
       "hash": "680e6bc30a083412d7ae36659ef7b15f642ed91702685d28241738a8c2e3a81b",
       "title": "SupaflyFPV Freestyle 3/4 Inch",
@@ -1922,13 +1989,13 @@
     },
     {
       "fullPath": "presets/2025.12/tune/uav_tech/UAV_tech_10in.txt",
-      "hash": "3bc72b8cff643ebac22e45253d1f6704862314beb736d0f3c850d3b2f4667c85",
+      "hash": "392f14202158595ba5da67548ae5dadea0be16a62470375efa8478e9b0fdb13d",
       "title": "UAV Tech - 10\" (1400-1700g | 31xx motors)",
       "firmware_version": [
         "2025.12"
       ],
       "category": "TUNE",
-      "status": "OFFICIAL",
+      "status": "COMMUNITY",
       "keywords": [
         "4S",
         "6S",
@@ -1941,13 +2008,13 @@
     },
     {
       "fullPath": "presets/2025.12/tune/uav_tech/UAV_tech_5in_Freestyle_575-650.txt",
-      "hash": "4e270574724a1bcb2febdfe740e4dffc040abc26c694cff4620e96ad0f766952",
+      "hash": "2624d31b53fd07183078d312f3b0eac0dbcdc2081c9254d76d7331a9f13aff43",
       "title": "UAV Tech - 5\" Freestyle withOUT GoPro (575-650g AUW)",
       "firmware_version": [
         "2025.12"
       ],
       "category": "TUNE",
-      "status": "OFFICIAL",
+      "status": "COMMUNITY",
       "keywords": [
         "4S",
         "6S",
@@ -1960,13 +2027,13 @@
     },
     {
       "fullPath": "presets/2025.12/tune/uav_tech/UAV_tech_5in_Freestyle_650-750.txt",
-      "hash": "d2dc006dd0008b7e7dacfcad26ab0fbd6a1b5484bf362d3833bd70f206112572",
+      "hash": "ac05d46808218099b3e06a8658e1b149d4978cbad1068b4903089128bef0c425",
       "title": "UAV Tech - 5\" Freestyle with GoPro (650-750g AUW)",
       "firmware_version": [
         "2025.12"
       ],
       "category": "TUNE",
-      "status": "OFFICIAL",
+      "status": "COMMUNITY",
       "keywords": [
         "4S",
         "6S",
@@ -1979,13 +2046,13 @@
     },
     {
       "fullPath": "presets/2025.12/tune/uav_tech/UAV_tech_5in_Race_500-575.txt",
-      "hash": "6773d28d8e599162915630cbea5616e64b0e79c107888a9733c1f3ab8697a278",
+      "hash": "416f4b4792222ac87986e1fcb2527eaadcb5b92208bdc51c22c96b36a09bdd2c",
       "title": "UAV Tech - 5\" Race (500-575g AUW)",
       "firmware_version": [
         "2025.12"
       ],
       "category": "TUNE",
-      "status": "OFFICIAL",
+      "status": "COMMUNITY",
       "keywords": [
         "4S",
         "6S",
@@ -1999,13 +2066,13 @@
     },
     {
       "fullPath": "presets/2025.12/tune/uav_tech/UAV_tech_6-7in.txt",
-      "hash": "5aa33fa2da65fe3e0d88c74d495f458ec098a1b43f45562f0ad20ce1c5aef480",
+      "hash": "2765f8157a7127fe6dc226b9a5375ca36e22b5078b3073d026e7db02fd9434da",
       "title": "UAV Tech - 6\"/7\" (750-1000g AUW)",
       "firmware_version": [
         "2025.12"
       ],
       "category": "TUNE",
-      "status": "OFFICIAL",
+      "status": "COMMUNITY",
       "keywords": [
         "4S",
         "6S",
@@ -2021,13 +2088,13 @@
     },
     {
       "fullPath": "presets/2025.12/tune/uav_tech/UAV_tech_8-9in.txt",
-      "hash": "63150b0f9e735a78c1e96308b294978ae810d2b7b877d08e3acbfb027d1981f6",
+      "hash": "a13b03d2bf4549380047056483593270fa90d3d7fb1ecf821abdaa90158512db",
       "title": "UAV Tech - 8\"/9\" (1000-1400 AUW)",
       "firmware_version": [
         "2025.12"
       ],
       "category": "TUNE",
-      "status": "OFFICIAL",
+      "status": "COMMUNITY",
       "keywords": [
         "4S",
         "6S",
@@ -2043,13 +2110,13 @@
     },
     {
       "fullPath": "presets/2025.12/tune/uav_tech/UAV_tech_Cinelifter_8-9in.txt",
-      "hash": "0e279d76f572d309b2e5cbb3b99f15922d73f65a19e7f80c9f4afa9703f80618",
+      "hash": "491232f8978f53fde9b0b1a97f64d3054b18d1b811e94dd83b352ee2d3417939",
       "title": "UAV Tech - Cinelifter (8\"/9\" >2,000g AUW)",
       "firmware_version": [
         "2025.12"
       ],
       "category": "TUNE",
-      "status": "OFFICIAL",
+      "status": "COMMUNITY",
       "keywords": [
         "6S",
         "8S",
@@ -2064,13 +2131,13 @@
     },
     {
       "fullPath": "presets/2025.12/tune/uav_tech/UAV_tech_Cinelog.txt",
-      "hash": "1c6cadaa9b82726e7b9f1d06a8970be50f159f4613f4834a773c684b8bc64840",
+      "hash": "2f0e69e98546b947a661f79897998ee41376e774bf1e9972e68085a8da163a0f",
       "title": "UAV Tech - Cinelog (250-300g AUW)",
       "firmware_version": [
         "2025.12"
       ],
       "category": "TUNE",
-      "status": "OFFICIAL",
+      "status": "COMMUNITY",
       "keywords": [
         "CineLog"
       ],
@@ -2079,13 +2146,13 @@
     },
     {
       "fullPath": "presets/2025.12/tune/uav_tech/UAV_tech_Cinewhoop.txt",
-      "hash": "d88c2510e12d6c925df856a5a29a2a656c57d3b9508aa931815b63fb66dce2bf",
+      "hash": "3a147843fc7f807e676d643a22f14b70aa4a1e25045fa0d5567879357f0a0601",
       "title": "UAV Tech - Cinewhoop",
       "firmware_version": [
         "2025.12"
       ],
       "category": "TUNE",
-      "status": "OFFICIAL",
+      "status": "COMMUNITY",
       "keywords": [
         "cinewhoop"
       ],
@@ -2110,13 +2177,13 @@
     },
     {
       "fullPath": "presets/2025.12/tune/uav_tech/UAV_tech_Micro.txt",
-      "hash": "e8173acbc58fc60fda7db11033def51f4455ef02b5c54664e195d7b2d7c9c7fd",
+      "hash": "c18fdefc46a9807fb3f55215b421cdaecc54e8c5c9321e3c66bbe9db64fe9af7",
       "title": "UAV Tech - Micro (2\" to 4\")",
       "firmware_version": [
         "2025.12"
       ],
       "category": "TUNE",
-      "status": "OFFICIAL",
+      "status": "COMMUNITY",
       "keywords": [
         "2S",
         "3S",
@@ -2134,13 +2201,13 @@
     },
     {
       "fullPath": "presets/2025.12/tune/uav_tech/UAV_tech_Whoop.txt",
-      "hash": "e5e31af88d42834994bfce41f30d6a4b5885a0fe9ea88ced404265d2bad26d68",
+      "hash": "9f91277cb60b15c93d25beb92697461891a2e0734d2576404074bfd20851bfb2",
       "title": "UAV Tech - Whoop (1S & 2S)",
       "firmware_version": [
         "2025.12"
       ],
       "category": "TUNE",
-      "status": "OFFICIAL",
+      "status": "COMMUNITY",
       "keywords": [
         "whoop"
       ],
@@ -3139,7 +3206,7 @@
     },
     {
       "fullPath": "presets/4.3/rates/SugarK.txt",
-      "hash": "a3ee0903ea8b08cde89aee1069ccb8b6947f441480b8ed36f10fe1355c6a3324",
+      "hash": "9bcff42152ede45546484374c2f853cc7d90070bf4f2e39a5004ffd37871f8ce",
       "title": "Sugar k rates",
       "firmware_version": [
         "4.3",
@@ -3162,7 +3229,7 @@
     },
     {
       "fullPath": "presets/4.3/rates/SugarK_whoop.txt",
-      "hash": "3894baa10e5bb8d71351d246d2e47c85476ba974dda8e9ec7b71cbea5f841989",
+      "hash": "f25c9b1ccdd81d3b0d287812cf458e0466b7e0c682d37bd557b566401ad3716d",
       "title": "Sugar k Whoop rates",
       "firmware_version": [
         "4.3",
@@ -7368,6 +7435,26 @@
         "Cinelog30V3WTF"
       ],
       "author": "Grey pang",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/betafpv_air65_racing_factory_safeerh.txt",
+      "hash": "6e1692a517095486d4b0ba929a620abe9c41a00c4963b4beb6006680d153eb46",
+      "title": "BETAFPV Air65 Racing Factory Settings",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "keywords": [
+        "betafpv",
+        "air65",
+        "racing",
+        "factory",
+        "defaults"
+      ],
+      "author": "Safeer Hussain",
       "force_options_review": true,
       "priority": 0
     },
