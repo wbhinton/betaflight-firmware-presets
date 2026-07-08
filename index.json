@@ -1208,7 +1208,7 @@
     },
     {
       "fullPath": "presets/2025.12/other/washout_whoop.txt",
-      "hash": "da2aa7e0f7af1786e18b17e9ab77c484ddcd5bf5d61c34f9be1eec9d6b8afd60",
+      "hash": "b1090442a6bbb23a4d3c022efab633e013594a31a38d2b29923b0c13eec5bb60",
       "title": "Washout's Whoop Tune",
       "keywords": [
         "Whoop",
@@ -1223,7 +1223,6 @@
         "2025.12"
       ],
       "author": "Washout",
-      "force_options_review": true,
       "priority": 0
     },
     {
@@ -3749,7 +3748,7 @@
     },
     {
       "fullPath": "presets/4.3/other/washout_whoop.txt",
-      "hash": "f27e101cb138a0282fb506cbadc96f68d26c1442807e3b0ded65c59941ebe008",
+      "hash": "d1d3952396377618e92d2d2b3a9e8aab8e8cc87d9dd4c4666536de9a7ed73c27",
       "title": "Washout's Whoop Tune",
       "keywords": [
         "Whoop",
@@ -3764,7 +3763,6 @@
         "4.3"
       ],
       "author": "Washout",
-      "force_options_review": true,
       "priority": 0
     },
     {
@@ -7042,7 +7040,7 @@
     },
     {
       "fullPath": "presets/4.4/other/washout_whoop.txt",
-      "hash": "363547ababa36d7a1ea4e37704cf92ed3d3f87a2c2477fb4e72caa32a9ec52c1",
+      "hash": "651d9f223a2a790542ee36456a525f33394c133abc882055dd0dd0ce46089c16",
       "title": "Washout's Whoop Tune",
       "keywords": [
         "Whoop",
@@ -7057,7 +7055,6 @@
         "4.4"
       ],
       "author": "Washout",
-      "force_options_review": true,
       "priority": 0
     },
     {
@@ -9277,7 +9274,7 @@
     },
     {
       "fullPath": "presets/4.5/other/washout_whoop.txt",
-      "hash": "09e7273b26a1396333f9c60ad4646c401fb44d0b4f5d0a9a02f59b0631801ab6",
+      "hash": "9778afdbbf46289ac8062ad3ccb3d2f7993b758bf4b2bc35f0535933d9e9da93",
       "title": "Washout's Whoop Tune",
       "keywords": [
         "Whoop",
@@ -9292,7 +9289,6 @@
         "4.5"
       ],
       "author": "Washout",
-      "force_options_review": true,
       "priority": 0
     },
     {
