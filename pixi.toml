@@ -1,0 +1,11 @@
+[workspace]
+authors = ["Weston Hinton <wbhinton@gmail.com>"]
+channels = ["conda-forge"]
+name = "betaflight-firmware-presets"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+nodejs = ">=26.4.0,<26.5"
