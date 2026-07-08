@@ -5,7 +5,6 @@
 #$ STATUS: COMMUNITY
 #$ FIRMWARE_VERSION: 4.5
 #$ AUTHOR: Washout
-#$ FORCE_OPTIONS_REVIEW: TRUE
 
 ##### --- CPU LOAD & MOTOR PROTOCOL FIXES ---
 set motor_pwm_protocol = DSHOT300
